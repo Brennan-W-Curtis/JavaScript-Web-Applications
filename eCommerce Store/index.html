@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to Font Style -->
+    <!-- <link rel="stylesheet" href="https://use.typekit.net/yzr7vou.css"> -->
+    <title>3D Art</title>
+    <link rel="stylesheet" href="myStyles.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navigation-bar">
+        <div class="navigationBar-center">
+            <span class="navigationBar-icon">
+                <i class="fas fa-bars"></i>
+            </span>
+            <!-- <img src="" alt="Brand logo"> -->
+            <h2><span class="brand-logo">3D</span> Portfolio</h2>
+            <div class="shoppingCart-button">
+                <span class="navigationBar-icon">
+                    <i class="fas fa-cart-plus"></i>
+                </span>
+                <div class="shoppingCart-items">0</div>
+            </div>
+        </div>
+    </nav>
+    <!-- Home Banner -->
+    <header class="home-banner">
+        <div class="banner">
+            <h1 class="banner-title">Art Collection</h1>
+            <button class="banner-button">Shop now</button>
+        </div>
+    </header>
+    <!-- Production Section -->
+    <section class="products-section">
+        <div class="section-title">
+            <h2>Our Products</h2>
+        </div>
+        <div class="products-center">
+        <!-- Single Product
+        <article class="product">
+            <div class="image-container">
+                <img src="./images/1stPiece.png" alt="Product" class="product-image">
+                <button class="shoppingBag-button" id="1">
+                    <i class="fas fa-shopping-cart"></i>
+                    Add to cart!
+                </button>
+            </div>
+            <h3>Piece 001</h3>
+            <h4>$15</h4>
+        </article>  -->
+        </div>
+    </section>
+    <!-- Shopping Cart -->
+    <div class="shoppingCart-overlay">
+        <div class="shoppingCart">
+            <span class="close-shoppingCart">
+                <i class="fas fa-window-close"></i>
+            </span>
+            <h2>Your Shopping Cart</h2>
+            <div class="shoppingCart-content">
+                <!-- Shopping Cart Item -->
+                <!-- <div class="shoppingCart-item">
+                    <img src="./images/1stPiece.png" alt="Product">
+                    <div>
+                        <h4>Art Piece</h4>
+                        <h5>$15.00</h5>
+                        <span class="remove-item">Remove</span>
+                    </div>
+                    <div>
+                        <i class="fas fa-chevron-up"></i>
+                        <p class="item-amount">1</p>
+                        <i class="fas fa-chevron-down"></i>
+                    </div> 
+                </div> -->
+            </div>
+            <div class="shoppingCart-footer">
+                <h3>Your Total : $ <span class="shoppingCart-total">0</span></h3>
+                <button class="clear-shoppingCart banner-button">Clear Cart</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
