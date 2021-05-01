@@ -1,0 +1,68 @@
+{
+    "items": [
+      {
+        "sys": { "id": "1" },
+        "fields": {
+          "title": "Safeword",
+          "price": 15.99,
+          "image": { "fields": { "file": { "url": "./images/1stPiece.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "2" },
+        "fields": {
+          "title": "Baby Little Tween",
+          "price": 15.99,
+          "image": { "fields": { "file": { "url": "./images/2ndPiece.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "3" },
+        "fields": {
+          "title": "Kingston",
+          "price": 15.99,
+          "image": { "fields": { "file": { "url": "./images/3rdPiece.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "4" },
+        "fields": {
+          "title": "I Felt Love",
+          "price": 15.99,
+          "image": { "fields": { "file": { "url": "./images/4thPiece.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "5" },
+        "fields": {
+          "title": "Say Can You Hear",
+          "price": 15.99,
+          "image": { "fields": { "file": { "url": "./images/5thPiece.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "6" },
+        "fields": {
+          "title": "After All",
+          "price": 15.99,
+          "image": { "fields": { "file": { "url": "./images/6thPiece.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "7" },
+        "fields": {
+          "title": "Call Me Up",
+          "price": 15.99,
+          "image": { "fields": { "file": { "url": "./images/7thPiece.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "8" },
+        "fields": {
+          "title": "Pretty Girls",
+          "price": 15.99,
+          "image": { "fields": { "file": { "url": "./images/8thPiece.png" } } }
+        }
+      }
+    ]
+  }
